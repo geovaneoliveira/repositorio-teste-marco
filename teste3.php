@@ -4,9 +4,7 @@ echo "nsei"jsdnkf
 
 aaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaa
-aaaaaaabaaaaaaaaa
+aacaaaaaaa
 aaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaa
