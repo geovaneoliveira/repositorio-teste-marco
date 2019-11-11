@@ -80,6 +80,5 @@ cd o nome do repositorio
 
 ai vou no meu editor, altero
 
-12:32
-	
+12:37
 	
