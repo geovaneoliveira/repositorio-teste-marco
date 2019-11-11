@@ -1,0 +1,89 @@
+criando um novo repositório
+	cd pasta
+	git init
+	git init --bare //iniciar dentro de um repositorio para usar no servidor
+
+obtenha um repositório
+	git clone /caminho/para/o/repositório prjNomePasta
+	git clone file:////vmsetup/projetos/Client1  //4 barras para funcionar na rede
+	git clone usuário@servidor:/caminho/para/o/repositório
+
+fluxo de trabalho
+	Working Directory
+		git status //ver alterações
+		git add/rm <arquivo> //Manda para a Stage/ Deleta da Stage
+		git checkout -- <arquivo> //Recupera do HEAD
+		git fetch origin //recupera todas do servidor
+		git reset --hard origin/master //usa junto com a instrução acima. Aponta para seu branch master local
+	Index (Stage area)
+		git commit -m "comentários das alterações" //o -m faz pular o ADD
+			git commit --amend -m "comentários das alterações" //adiciona a um commit existente
+		git reset HEAD <file> //desconsidera (untrack) o arquivo no commit
+	Head
+		git remote //Exibe servidores
+		git remote add origin <servidor> // Se o repositório náo tiver isso clonado
+		git push origin Master //enviar para servidor "Origin" o conteudo de Master
+	Repositório Remoto
+
+Ramificando
+	git branch //lista todos os branchs
+	git branch funcionalidade_x //Cria Branch
+	git branch -d funcionalidade_x //Remove Branch
+	git checkout -b funcionalidade_x //criação e altera o working directory
+	git checkout master // o working directory passa a ser a MASTER
+	git checkout <tag> // o working directory passa a ser a tag (commitada)
+
+atualizar & mesclar
+	git pull //baixar atualizações e faz merge repositório local
+	git fetch origin branch //baixa atualizaçoes sem fazer merge
+	git merge <branch> //se der problema, altere manualmente e dê um "git add". Precisa estar na branch de destino
+	git diff <branch origem> <branch destino> // ver diferença
+
+Rotulando
+	git tag // lista as tags
+	git show <tag> //mostra detalhes de um tag
+	git tag -a 1.0.0. 1b2e1d63ff -m "menagem"//dar rotulo para commit. O "-a"implica em rotular com informações
+	git log //para pegar o id. Poderia ser git log "pretty=oneline"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git pull
+git add .    adiciona todos os arquivos
+git commit -m "nome do commit"
+git push origin master (git push é suficiente)
+
+
+antes eu preciso dar permissão.
+vou no github. vou em settings. addicno o userneame
+
+
+git clone link completo do repositório
+cd o nome do repositorio
+
+ai vou no meu editor, altero
+
+
+e
+
+
+
+	
+	
